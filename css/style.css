@@ -1,0 +1,64 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: Impact, sans-serif;
+}
+
+::-webkit-scrollbar{
+    width: 12px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #353b48;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #c23616;
+}
+
+.parallax-hulk{
+    background-image: url("../img/data/hulk.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 768px;
+}
+
+.parallax-spiderman{
+    background-image: url("../img/data/spiderman.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 768px;
+}
+
+.parallax-flash{
+    background-image: url("../img/data/flash.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 768px;
+}
+
+.parallax-ironman{
+    background-image: url("../img/data/ironman.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 768px;
+}
+
+.inform-block{
+    background-color: #c23616;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    height: 128px;
+}
